@@ -2,10 +2,9 @@ server:
   servlet:
     context-path: /produdoro/api
 
-
 spring:
   data:
     mongodb:
       authentication-database: admin
-      uri: ${MONGO_DB_URI:mongodb+srv://753358:753358@cluster0.bbnoj.mongodb.net/753358?retryWrites=true&w=majority}
+      uri: ${MONGO_DB_URI:mongodb+srv://produdoroDevUser:aVZrCoDJX3yLwVwO@wakanda.gymaztk.mongodb.net/wakanda?retryWrites=true&w=majority}
       auto-index-creation: true
